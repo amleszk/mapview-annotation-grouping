@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 385}}";
+			sepNavSelRange = "{113, 0}";
+			sepNavVisRange = "{0, 161}";
+			sepNavWindowFrame = "{{99, 85}, {1243, 767}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 325}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{167, 316}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* mapview-annotation-grouping */ = {
+		activeExec = 0;
+		executables = (
+			613E78761424C58C00665986 /* mapview-annotation-grouping */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 613E78761424C58C00665986 /* mapview-annotation-grouping */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* mapview-annotation-grouping */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* mapview-annotation-grouping */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 613E78851424C5AB00665986 /* Code sense */;
+		executables = (
+			613E78761424C58C00665986 /* mapview-annotation-grouping */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					631,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337963024;
+			PBXWorkspaceStateSaveDate = 337963024;
+		};
+		perUserProjectItems = {
+			613E78CB1424C90D00665986 = 613E78CB1424C90D00665986 /* PBXTextBookmark */;
+			613E78EA1424C9E200665986 = 613E78EA1424C9E200665986 /* PlistBookmark */;
+			613E7A361424D2A800665986 = 613E7A361424D2A800665986 /* PBXTextBookmark */;
+			613E7A381424D2A800665986 = 613E7A381424D2A800665986 /* PBXTextBookmark */;
+			613E7A3B1424D2A800665986 = 613E7A3B1424D2A800665986 /* PBXTextBookmark */;
+			613E7A421424D2A800665986 = 613E7A421424D2A800665986 /* PBXTextBookmark */;
+			613E7A531424D3FC00665986 = 613E7A531424D3FC00665986 /* PBXTextBookmark */;
+			613E7A561424D3FC00665986 = 613E7A561424D3FC00665986 /* PBXTextBookmark */;
+			613E7A581424D3FC00665986 = 613E7A581424D3FC00665986 /* PBXTextBookmark */;
+			613E7A6D1424D52A00665986 = 613E7A6D1424D52A00665986 /* PBXTextBookmark */;
+			613E7AD71424DB9700665986 = 613E7AD71424DB9700665986 /* PBXTextBookmark */;
+			613E7B261424E0A800665986 = 613E7B261424E0A800665986 /* PBXTextBookmark */;
+			617A5D481424E1AA001528FA = 617A5D481424E1AA001528FA /* PBXTextBookmark */;
+			617A5D721424E403001528FA = 617A5D721424E403001528FA /* PBXTextBookmark */;
+			617A5D731424E403001528FA = 617A5D731424E403001528FA /* PBXTextBookmark */;
+			617A5D741424E403001528FA = 617A5D741424E403001528FA /* PBXTextBookmark */;
+			617A5D751424E403001528FA = 617A5D751424E403001528FA /* PBXTextBookmark */;
+			617A5D771424E403001528FA = 617A5D771424E403001528FA /* PBXTextBookmark */;
+			617A5D8A1424E687001528FA = 617A5D8A1424E687001528FA /* PBXTextBookmark */;
+			617A5D9B1424E6D4001528FA = 617A5D9B1424E6D4001528FA /* PBXTextBookmark */;
+			617A5D9C1424E6D4001528FA = 617A5D9C1424E6D4001528FA /* PBXTextBookmark */;
+			617A5D9D1424E6D4001528FA = 617A5D9D1424E6D4001528FA /* PBXTextBookmark */;
+			617A5DA41424E825001528FA /* PBXTextBookmark */ = 617A5DA41424E825001528FA /* PBXTextBookmark */;
+			617A5DA51424E825001528FA /* PBXTextBookmark */ = 617A5DA51424E825001528FA /* PBXTextBookmark */;
+			617A5DA61424E825001528FA /* PBXTextBookmark */ = 617A5DA61424E825001528FA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 613E78841424C5AB00665986 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 393}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{0, 383}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* mapview_annotation_grouping_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 410}}";
+			sepNavSelRange = "{109, 0}";
+			sepNavVisRange = "{0, 117}";
+		};
+	};
+	613E78761424C58C00665986 /* mapview-annotation-grouping */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "mapview-annotation-grouping";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	613E78841424C5AB00665986 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	613E78851424C5AB00665986 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	613E78891424C62300665986 /* MKMapView+AnnotationGrouping.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 410}}";
+			sepNavSelRange = "{116, 0}";
+			sepNavVisRange = "{0, 123}";
+		};
+	};
+	613E788A1424C62300665986 /* MKMapView+AnnotationGrouping.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 1508}}";
+			sepNavSelRange = "{635, 171}";
+			sepNavVisRange = "{283, 641}";
+		};
+	};
+	613E78CB1424C90D00665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	613E78EA1424C9E200665986 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* mapview_annotation_grouping-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_grouping-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	613E79191424CF0C00665986 /* SingleAnnotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 404}}";
+			sepNavSelRange = "{42, 12}";
+			sepNavVisRange = "{0, 102}";
+		};
+	};
+	613E791A1424CF0C00665986 /* SingleAnnotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 468}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRange = "{0, 438}";
+		};
+	};
+	613E79271424CF9E00665986 /* GroupedAnnotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 385}}";
+			sepNavSelRange = "{179, 0}";
+			sepNavVisRange = "{0, 186}";
+		};
+	};
+	613E79281424CF9E00665986 /* GroupedAnnotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 455}}";
+			sepNavSelRange = "{68, 0}";
+			sepNavVisRange = "{0, 413}";
+		};
+	};
+	613E7A201424D19000665986 /* MapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 398}}";
+			sepNavSelRange = "{147, 11}";
+			sepNavVisRange = "{0, 168}";
+		};
+	};
+	613E7A211424D19000665986 /* MapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 1079}}";
+			sepNavSelRange = "{628, 0}";
+			sepNavVisRange = "{0, 755}";
+		};
+	};
+	613E7A351424D2A800665986 /* MKMapView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MKMapView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h;
+		sourceTree = "<absolute>";
+	};
+	613E7A361424D2A800665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* mapview_annotation_grouping_Prefix.pch */;
+		name = "mapview_annotation_grouping_Prefix.pch: 5";
+		rLen = 0;
+		rLoc = 109;
+		rType = 0;
+		vrLen = 117;
+		vrLoc = 0;
+	};
+	613E7A381424D2A800665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A391424D2A800665986 /* UIWindow.h */;
+		name = "UIWindow.h: 80";
+		rLen = 172;
+		rLoc = 3202;
+		rType = 0;
+		vrLen = 1721;
+		vrLoc = 2435;
+	};
+	613E7A391424D2A800665986 /* UIWindow.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIWindow.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h;
+		sourceTree = "<absolute>";
+	};
+	613E7A3B1424D2A800665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E79271424CF9E00665986 /* GroupedAnnotation.h */;
+		name = "GroupedAnnotation.h: 9";
+		rLen = 0;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 186;
+		vrLoc = 0;
+	};
+	613E7A411424D2A800665986 /* UIViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIViewController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h;
+		sourceTree = "<absolute>";
+	};
+	613E7A421424D2A800665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AppDelegate.h */;
+		name = "AppDelegate.h: 5";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 0;
+	};
+	613E7A531424D3FC00665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AppDelegate.m */;
+		name = "AppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 489;
+		vrLoc = 0;
+	};
+	613E7A561424D3FC00665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A411424D2A800665986 /* UIViewController.h */;
+		name = "UIViewController.h: 119";
+		rLen = 20;
+		rLoc = 4846;
+		rType = 0;
+		vrLen = 3108;
+		vrLoc = 3665;
+	};
+	613E7A581424D3FC00665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A591424D3FC00665986 /* CLLocation.h */;
+		name = "CLLocation.h: 62";
+		rLen = 26;
+		rLoc = 1398;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 1027;
+	};
+	613E7A591424D3FC00665986 /* CLLocation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CLLocation.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h;
+		sourceTree = "<absolute>";
+	};
+	613E7A5B1424D3FC00665986 /* MKGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MKGeometry.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	613E7A6D1424D52A00665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A5B1424D3FC00665986 /* MKGeometry.h */;
+		name = "MKGeometry.h: 20";
+		rLen = 22;
+		rLoc = 328;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 0;
+	};
+	613E7AD71424DB9700665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E78891424C62300665986 /* MKMapView+AnnotationGrouping.h */;
+		name = "MKMapView+AnnotationGrouping.h: 4";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 120;
+		vrLoc = 0;
+	};
+	613E7B261424E0A800665986 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E79281424CF9E00665986 /* GroupedAnnotation.m */;
+		name = "GroupedAnnotation.m: 7";
+		rLen = 0;
+		rLoc = 68;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 0;
+	};
+	617A5D481424E1AA001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E791A1424CF0C00665986 /* SingleAnnotation.m */;
+		name = "SingleAnnotation.m: 14";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 0;
+	};
+	617A5D4B1424E1AA001528FA /* MKAnnotation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MKAnnotation.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotation.h;
+		sourceTree = "<absolute>";
+	};
+	617A5D721424E403001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 617A5D4B1424E1AA001528FA /* MKAnnotation.h */;
+		name = "MKAnnotation.h: 12";
+		rLen = 0;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 0;
+	};
+	617A5D731424E403001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E79191424CF0C00665986 /* SingleAnnotation.h */;
+		name = "SingleAnnotation.h: 3";
+		rLen = 12;
+		rLoc = 42;
+		rType = 0;
+		vrLen = 102;
+		vrLoc = 0;
+	};
+	617A5D741424E403001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A351424D2A800665986 /* MKMapView.h */;
+		name = "MKMapView.h: 151";
+		rLen = 99;
+		rLoc = 7191;
+		rType = 0;
+		vrLen = 2342;
+		vrLoc = 6576;
+	};
+	617A5D751424E403001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 617A5D761424E403001528FA /* MKAnnotationView.h */;
+		name = "MKAnnotationView.h: 31";
+		rLen = 37;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 1103;
+		vrLoc = 0;
+	};
+	617A5D761424E403001528FA /* MKAnnotationView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MKAnnotationView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotationView.h;
+		sourceTree = "<absolute>";
+	};
+	617A5D771424E403001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 617A5D781424E403001528FA /* MKPinAnnotationView.h */;
+		name = "MKPinAnnotationView.h: 20";
+		rLen = 16;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 570;
+		vrLoc = 0;
+	};
+	617A5D781424E403001528FA /* MKPinAnnotationView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MKPinAnnotationView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKPinAnnotationView.h;
+		sourceTree = "<absolute>";
+	};
+	617A5D8A1424E687001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E788A1424C62300665986 /* MKMapView+AnnotationGrouping.m */;
+		name = "MKMapView+AnnotationGrouping.m: 21";
+		rLen = 0;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 651;
+		vrLoc = 848;
+	};
+	617A5D9B1424E6D4001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A201424D19000665986 /* MapViewController.h */;
+		name = "MapViewController.h: 6";
+		rLen = 11;
+		rLoc = 147;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	617A5D9C1424E6D4001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A211424D19000665986 /* MapViewController.m */;
+		name = "MapViewController.m: 54";
+		rLen = 61;
+		rLoc = 1270;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 918;
+	};
+	617A5D9D1424E6D4001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A211424D19000665986 /* MapViewController.m */;
+		name = "MapViewController.m: 24";
+		rLen = 0;
+		rLoc = 628;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 0;
+	};
+	617A5DA41424E825001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E7A211424D19000665986 /* MapViewController.m */;
+		name = "MapViewController.m: 24";
+		rLen = 0;
+		rLoc = 628;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 0;
+	};
+	617A5DA51424E825001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E788A1424C62300665986 /* MKMapView+AnnotationGrouping.m */;
+		name = "MKMapView+AnnotationGrouping.m: 15";
+		rLen = 0;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 845;
+	};
+	617A5DA61424E825001528FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 613E788A1424C62300665986 /* MKMapView+AnnotationGrouping.m */;
+		name = "MKMapView+AnnotationGrouping.m: 26";
+		rLen = 171;
+		rLoc = 635;
+		rType = 0;
+		vrLen = 641;
+		vrLoc = 283;
+	};
+}

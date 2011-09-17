@@ -1,0 +1,430 @@
+Tmapview-annotation-grouping
+v7
+r0
+t337962708.010229
+cCheck dependencies
+cProcessInfoPlistFile /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/Info.plist mapview_annotation_grouping-Info.plist
+cProcessPCH /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch.gch mapview_annotation_grouping_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/main.o /Users/al/dev/iphone/mapview-annotation-grouping/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/AppDelegate.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MKMapView+AnnotationGrouping.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/MKMapView+AnnotationGrouping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/SingleAnnotation.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/SingleAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/GroupedAnnotation.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/GroupedAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MapViewController.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping normal i386
+cGenerateDSYMFile /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app.dSYM /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping
+cTouch /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/AppDelegate.h
+c000000004E749B1600000000000000A1
+t1316264726
+s161
+i"MapViewController.h"
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/AppDelegate.m
+c000000004E749B2800000000000001E9
+t1316264744
+s489
+i"AppDelegate.h"
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/GroupedAnnotation.h
+c000000004E7498F300000000000000BA
+t1316264179
+s186
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/GroupedAnnotation.m
+c000000004E74A7FD00000000000001B3
+t1316268029
+s435
+i"GroupedAnnotation.h"
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/MKMapView+AnnotationGrouping.h
+c000000004E74AF1C0000000000000078
+t1316269852
+s120
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/MKMapView+AnnotationGrouping.m
+c000000004E74AF1C0000000000000AAB
+t1316269852
+s2731
+i"MKMapView+AnnotationGrouping.h"
+i"GroupedAnnotation.h"
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/MapViewController.h
+c000000004E74AF4F00000000000000A8
+t1316269903
+s168
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/MapViewController.m
+c000000004E74AF5300000000000007A1
+t1316269907
+s1953
+i"MapViewController.h"
+i"MKMapView+AnnotationGrouping.h"
+i"SingleAnnotation.h"
+i"GroupedAnnotation.h"
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/SingleAnnotation.h
+c000000004E7497DC0000000000000066
+t1316263900
+s102
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/SingleAnnotation.m
+c000000004E74A7FD00000000000001BD
+t1316268029
+s445
+i"SingleAnnotation.h"
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingAppDelegate.h
+c000000004E748E0C000000000000024E
+t1316261388
+s590
+i<UIKit/UIKit.h>
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingAppDelegate.m
+c000000004E748E0C0000000000000AF0
+t1316261388
+s2800
+i"mapview_annotation_groupingAppDelegate.h"
+i"mapview_annotation_groupingViewController.h"
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingViewController.h
+c000000004E748E0C0000000000000121
+t1316261388
+s289
+i<UIKit/UIKit.h>
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingViewController.m
+c000000004E748E0C0000000000000608
+t1316261388
+s1544
+i"mapview_annotation_groupingViewController.h"
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/MainWindow.xib
+c000000004E748E0C0000000000004F19
+t1316261388
+s20249
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app
+t1316269908
+s238
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app.dSYM
+t1316269907
+s102
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/Info.plist
+t1316261504
+s644
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/MainWindow.nib
+t1316261393
+s1163
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/PkgInfo
+t1316261504
+s8
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping
+t1316269907
+s29216
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview_annotation_groupingViewController.nib
+t1316261393
+s795
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/AppDelegate.o
+t1316269903
+s48312
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/GroupedAnnotation.o
+t1316268029
+s11708
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MKMapView+AnnotationGrouping.o
+t1316269852
+s45688
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MapViewController.o
+t1316269907
+s48948
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/SingleAnnotation.o
+t1316268029
+s11504
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/main.o
+t1316262310
+s6604
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview-annotation-grouping.LinkFileList
+c000000004E749A3B000000000000044D
+t1316264507
+s1101
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview_annotation_groupingAppDelegate.o
+t1316261394
+s52056
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview_annotation_groupingViewController.o
+t1316261394
+s37940
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/main.m
+c000000004E749168000000000000017F
+t1316262248
+s383
+i<UIKit/UIKit.h>
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_groupingViewController.xib
+c000000004E748E0C0000000000001A95
+t1316261388
+s6805
+
+N/Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_grouping_Prefix.pch
+c000000004E7490E50000000000000075
+t1316262117
+s117
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-esdhjxcnzytltdeqperjbyjoawda/mapview_annotation_grouping_Prefix.pch.gch
+t1316262118
+s16072848
+
+N/var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch.gch
+t1316262310
+s16072848
+
+Nmapview_annotation_grouping-Info.plist
+c000000004E748E800000000000000356
+t1316261504
+s854
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337962707#337962707#0(0"0(0#1#0"8619547488#0"0#
+
+CCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/AppDelegate.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337962703.740241
+e337962703.879450
+r1
+xCompileC
+xbuild/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/AppDelegate.o
+x/Users/al/dev/iphone/mapview-annotation-grouping/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/al/dev/iphone/mapview-annotation-grouping/Classes/AppDelegate.m337962703#337962703#0(0"0(0#0#70"/Users/al/dev/iphone/mapview-annotation-grouping/Classes/AppDelegate.m8617649600#2508"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -include /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch -c /Users/al/dev/iphone/mapview-annotation-grouping/Classes/AppDelegate.m -o /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/GroupedAnnotation.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/GroupedAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337960829.177881
+e337960829.315284
+r1
+xCompileC
+xbuild/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/GroupedAnnotation.o
+x/Users/al/dev/iphone/mapview-annotation-grouping/Classes/GroupedAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/al/dev/iphone/mapview-annotation-grouping/Classes/GroupedAnnotation.m337960829#337960829#0(0"0(0#0#76"/Users/al/dev/iphone/mapview-annotation-grouping/Classes/GroupedAnnotation.m8654683520#2520"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -include /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch -c /Users/al/dev/iphone/mapview-annotation-grouping/Classes/GroupedAnnotation.m -o /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/GroupedAnnotation.o0#
+
+CCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MKMapView+AnnotationGrouping.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/MKMapView+AnnotationGrouping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337962652.794449
+e337962652.933509
+r1
+xCompileC
+xbuild/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MKMapView+AnnotationGrouping.o
+x/Users/al/dev/iphone/mapview-annotation-grouping/Classes/MKMapView+AnnotationGrouping.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/al/dev/iphone/mapview-annotation-grouping/Classes/MKMapView+AnnotationGrouping.m337962652#337962652#0(0"0(0#0#87"/Users/al/dev/iphone/mapview-annotation-grouping/Classes/MKMapView+AnnotationGrouping.m8595945088#2542"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -include /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch -c /Users/al/dev/iphone/mapview-annotation-grouping/Classes/MKMapView+AnnotationGrouping.m -o /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MKMapView+AnnotationGrouping.o0#
+
+CCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MapViewController.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337962707.824539
+e337962707.947059
+r1
+xCompileC
+xbuild/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MapViewController.o
+x/Users/al/dev/iphone/mapview-annotation-grouping/Classes/MapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/al/dev/iphone/mapview-annotation-grouping/Classes/MapViewController.m337962707#337962707#0(0"0(0#0#76"/Users/al/dev/iphone/mapview-annotation-grouping/Classes/MapViewController.m8618076544#2520"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -include /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch -c /Users/al/dev/iphone/mapview-annotation-grouping/Classes/MapViewController.m -o /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/MapViewController.o0#
+
+CCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/SingleAnnotation.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/SingleAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337960829.170784
+e337960829.300576
+r1
+xCompileC
+xbuild/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/SingleAnnotation.o
+x/Users/al/dev/iphone/mapview-annotation-grouping/Classes/SingleAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/al/dev/iphone/mapview-annotation-grouping/Classes/SingleAnnotation.m337960829#337960829#0(0"0(0#0#75"/Users/al/dev/iphone/mapview-annotation-grouping/Classes/SingleAnnotation.m8658561120#2518"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -include /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch -c /Users/al/dev/iphone/mapview-annotation-grouping/Classes/SingleAnnotation.m -o /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/SingleAnnotation.o0#
+
+CCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/main.o /Users/al/dev/iphone/mapview-annotation-grouping/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337955110.168874
+e337955110.236176
+r1
+xCompileC
+xbuild/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/main.o
+x/Users/al/dev/iphone/mapview-annotation-grouping/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/al/dev/iphone/mapview-annotation-grouping/main.m337955110#337955110#0(0"0(0#0#55"/Users/al/dev/iphone/mapview-annotation-grouping/main.m8661744800#2486"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -include /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch -c /Users/al/dev/iphone/mapview-annotation-grouping/main.m -o /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/main.o0#
+
+CCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview_annotation_groupingAppDelegate.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337954193.964223
+e337954194.071175
+r1
+xCompileC
+xbuild/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview_annotation_groupingAppDelegate.o
+x/Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingAppDelegate.m337954193#337954194#0(0"0(0#0#97"/Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingAppDelegate.m8662535968#2562"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -include /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-esdhjxcnzytltdeqperjbyjoawda/mapview_annotation_grouping_Prefix.pch -c /Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingAppDelegate.m -o /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview_annotation_groupingAppDelegate.o0#
+
+CCompileC build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview_annotation_groupingViewController.o /Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337954194.040965
+e337954194.109855
+r1
+xCompileC
+xbuild/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview_annotation_groupingViewController.o
+x/Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingViewController.m337954194#337954194#0(0"0(0#0#100"/Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingViewController.m8664737408#2568"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -include /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-esdhjxcnzytltdeqperjbyjoawda/mapview_annotation_grouping_Prefix.pch -c /Users/al/dev/iphone/mapview-annotation-grouping/Classes/mapview_annotation_groupingViewController.m -o /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview_annotation_groupingViewController.o0#
+
+CCompileXIB /Users/al/dev/iphone/mapview-annotation-grouping/MainWindow.xib
+s337954192.797436
+e337954193.214274
+r1
+xCompileXIB
+x/Users/al/dev/iphone/mapview-annotation-grouping/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib337954192#337954193#0(0"0(0#0#63"/Users/al/dev/iphone/mapview-annotation-grouping/MainWindow.xib8653949792#682"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/MainWindow.nib /Users/al/dev/iphone/mapview-annotation-grouping/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_groupingViewController.xib
+s337954192.799382
+e337954193.201942
+r1
+xCompileXIB
+x/Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_groupingViewController.xib
+lSLF07#2@56"CompileXIB mapview_annotation_groupingViewController.xib337954192#337954193#0(0"0(0#0#94"/Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_groupingViewController.xib8653948000#744"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview_annotation_groupingViewController.nib /Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_groupingViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app.dSYM /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping
+s337962707.975121
+e337962708.007450
+r1
+xGenerateDSYMFile
+x/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app.dSYM
+x/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping
+lSLF07#2@169"GenerateDSYMFile build/Debug-iphonesimulator/mapview-annotation-grouping.app.dSYM build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping337962707#337962708#0(0"0(0#0#136"/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping8623097184#535"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping -o /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app.dSYM0#
+
+CLd /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping normal i386
+s337962707.947154
+e337962707.975010
+r1
+xLd
+x/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping
+xnormal
+xi386
+lSLF07#2@141"Link /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping337962707#337962707#0(0"0(0#0#0"8623250976#1130"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -filelist /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/Objects-normal/i386/mapview-annotation-grouping.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -o /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/mapview-annotation-grouping0#
+
+CProcessInfoPlistFile /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/Info.plist mapview_annotation_grouping-Info.plist
+s337954304.095083
+e337954304.114607
+r1
+xProcessInfoPlistFile
+x/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/Info.plist
+xmapview_annotation_grouping-Info.plist
+lSLF07#2@46"Process mapview_annotation_grouping-Info.plist337954304#337954304#0(0"0(0#0#87"/Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_grouping-Info.plist30962664052949112#631"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility mapview_annotation_grouping-Info.plist -genpkginfo /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app/Info.plist0#
+
+CProcessPCH /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-esdhjxcnzytltdeqperjbyjoawda/mapview_annotation_grouping_Prefix.pch.gch mapview_annotation_grouping_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s337954917.281385
+e337954918.115055
+r1
+xProcessPCH
+x/var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-esdhjxcnzytltdeqperjbyjoawda/mapview_annotation_grouping_Prefix.pch.gch
+xmapview_annotation_grouping_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Precompile mapview_annotation_grouping_Prefix.pch337954917#337954918#0(0"0(0#0#87"/Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_grouping_Prefix.pch8665819968#2348"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -c /Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_grouping_Prefix.pch -o /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-esdhjxcnzytltdeqperjbyjoawda/mapview_annotation_grouping_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch.gch mapview_annotation_grouping_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s337955109.333295
+e337955110.168725
+r1
+xProcessPCH
+x/var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch.gch
+xmapview_annotation_grouping_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Precompile mapview_annotation_grouping_Prefix.pch337955109#337955110#0(0"0(0#0#87"/Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_grouping_Prefix.pch8665280736#2348"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-generated-files.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-own-target-headers.hmap -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-all-target-headers.hmap -iquote /Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/mapview-annotation-grouping-project-headers.hmap -F/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator -I/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/include -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources/i386 -I/Users/al/dev/iphone/mapview-annotation-grouping/build/mapview-annotation-grouping.build/Debug-iphonesimulator/mapview-annotation-grouping.build/DerivedSources -c /Users/al/dev/iphone/mapview-annotation-grouping/mapview_annotation_grouping_Prefix.pch -o /var/folders/nD/nDSX8wCmFp0rXFdo8+Jvc++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/mapview_annotation_grouping_Prefix-gdqsvigrpvsayodzmwvziuduejwd/mapview_annotation_grouping_Prefix.pch.gch0#
+
+CTouch /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app
+s337962708.007535
+e337962708.010191
+r1
+xTouch
+x/Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app
+lSLF07#2@114"Touch /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app337962708#337962708#0(0"0(0#0#0"8624577600#380"    cd /Users/al/dev/iphone/mapview-annotation-grouping    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/al/dev/iphone/mapview-annotation-grouping/build/Debug-iphonesimulator/mapview-annotation-grouping.app0#
+
