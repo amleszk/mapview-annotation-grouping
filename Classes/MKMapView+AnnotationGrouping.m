@@ -11,10 +11,9 @@ static inline CGFloat getDist(CGPoint point1,CGPoint point2)
 	return sqrt(dx*dx + dy*dy );
 }
 
--(NSArray*) singleMultiMarkerGroupingWithLocations:(NSArray*)annos 
-							  withGroupDistance:(int)minDist
+-(NSArray*) groupingWithAnnotations:(NSArray*)annos withGroupDistance:(int)groupDist
 {
-	NSMutableArray* annosToGroup = [NSMutableArray array];
+	NSMutableArray* annotationsToGroup = [NSMutableArray array];
 	for(id<MKAnnotation> a1 in annos)
 	{
 		CGPoint p1 = [self convertCoordinate:a1.coordinate toPointToView:nil];
@@ -25,32 +24,31 @@ static inline CGFloat getDist(CGPoint point1,CGPoint point2)
 			
 			CGPoint p2 = [self convertCoordinate:a2.coordinate toPointToView:nil];
 			CGFloat dist = getDist(p1,p2);
-			if(dist<minDist)
+			if(dist<groupDist)
 			{
-				[annosToGroup addObject:a2];
+				[annotationsToGroup addObject:a2];
 			}
 			
 		}
-		if([annosToGroup count])
+		if([annotationsToGroup count])
 		{
-			[annosToGroup addObject:a1];
-			return annosToGroup;
+			[annotationsToGroup addObject:a1];
+			return annotationsToGroup;
 		}
 	}
 	return nil;
 }
 
--(NSArray*) multiMarkerGroupingsWithLocations:(NSMutableArray*)mutableAnnos withGroupDistance:(int)minDist
+-(NSArray*) groupAnnotations:(NSMutableArray*)mutableAnnotations withGroupDistance:(int)dist
 {
 	NSMutableArray* groupings = [NSMutableArray array];
 	while(TRUE)
 	{
-		NSArray* grouping = [self singleMultiMarkerGroupingWithLocations:mutableAnnos 
-													withGroupDistance:minDist];
+		NSArray* grouping = [self groupingWithAnnotations:mutableAnnotations withGroupDistance:dist];
 		if(grouping)
 		{
 			[groupings addObject:grouping];
-			[mutableAnnos removeObjectsInArray:grouping];
+			[mutableAnnotations removeObjectsInArray:grouping];
 		}
 		else 
 		{
@@ -76,11 +74,9 @@ static inline CGFloat getDist(CGPoint point1,CGPoint point2)
 	return [self convertPoint:midpoint toCoordinateFromView:nil];	
 }
 
--(NSArray*) getMultiMarkerGroupings:(NSMutableArray*)mutableAnnos withGroupDistance:(int)minDist
+-(NSArray*) convertToGroupedAnnotationWithAnnotations:(NSMutableArray*)mutableAnnos withGroupDistance:(int)dist
 {
-	NSArray* groupings = [self multiMarkerGroupingsWithLocations:mutableAnnos
-											withGroupDistance:minDist];
-		
+	NSArray* groupings = [self groupAnnotations:mutableAnnos withGroupDistance:dist];
 	NSMutableArray* groupedAnnos = [NSMutableArray array];
 	for(NSArray* group in groupings)
 	{
@@ -92,11 +88,11 @@ static inline CGFloat getDist(CGPoint point1,CGPoint point2)
 	return groupedAnnos;
 }
 
--(void) addAnnotations:(NSArray*)annos withGroupDistance:(int)minDist
+-(void) addAnnotations:(NSArray*)annos withGroupDistance:(int)dist
 {
 	NSMutableArray* singleAnnotationsMinusGrouped = [[NSMutableArray alloc] initWithArray:annos copyItems:FALSE];
-	NSArray* groupedAnnos = [self getMultiMarkerGroupings:singleAnnotationsMinusGrouped 
-									 withGroupDistance:minDist];
+	NSArray* groupedAnnos = [self convertToGroupedAnnotationWithAnnotations:singleAnnotationsMinusGrouped 
+									 withGroupDistance:dist];
 	[self addAnnotations:groupedAnnos];
 	[self addAnnotations:singleAnnotationsMinusGrouped];
 	
