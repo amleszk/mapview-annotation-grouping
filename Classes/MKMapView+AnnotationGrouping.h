@@ -1,6 +1,6 @@
 
 @interface MKMapView(AnnotationGrouping)
 
--(void) addAnnotations:(NSArray*)annos withGroupDistance:(int)dist;
+-(void) addAnnotations:(NSArray*)annos withGroupDistance:(float)dist;
 
 @end

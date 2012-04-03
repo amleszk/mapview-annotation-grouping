@@ -11,7 +11,7 @@ static inline CGFloat getDist(CGPoint point1,CGPoint point2)
 	return sqrt(dx*dx + dy*dy );
 }
 
--(NSArray*) groupingWithAnnotations:(NSArray*)annos withGroupDistance:(int)groupDist
+-(NSArray*) groupingWithAnnotations:(NSArray*)annos withGroupDistance:(float)groupDist
 {
 	NSMutableArray* annotationsToGroup = [NSMutableArray array];
 	for(id<MKAnnotation> a1 in annos)
@@ -39,16 +39,17 @@ static inline CGFloat getDist(CGPoint point1,CGPoint point2)
 	return nil;
 }
 
--(NSArray*) groupAnnotations:(NSMutableArray*)mutableAnnotations withGroupDistance:(int)dist
+-(NSArray*) groupAnnotations:(NSArray*)annos withGroupDistance:(float)dist
 {
 	NSMutableArray* groupings = [NSMutableArray array];
+    NSMutableArray* singles = [[NSMutableArray alloc] initWithArray:annos copyItems:FALSE];
 	while(TRUE)
 	{
-		NSArray* grouping = [self groupingWithAnnotations:mutableAnnotations withGroupDistance:dist];
+		NSArray* grouping = [self groupingWithAnnotations:singles withGroupDistance:dist];
 		if(grouping)
 		{
 			[groupings addObject:grouping];
-			[mutableAnnotations removeObjectsInArray:grouping];
+			[singles removeObjectsInArray:grouping];
 		}
 		else 
 		{
@@ -74,28 +75,21 @@ static inline CGFloat getDist(CGPoint point1,CGPoint point2)
 	return [self convertPoint:midpoint toCoordinateFromView:nil];	
 }
 
--(NSArray*) convertToGroupedAnnotationWithAnnotations:(NSMutableArray*)mutableAnnos withGroupDistance:(int)dist
+-(void) addAnnotations:(NSArray*)annos withGroupDistance:(float)dist
 {
-	NSArray* groupings = [self groupAnnotations:mutableAnnos withGroupDistance:dist];
-	NSMutableArray* groupedAnnos = [NSMutableArray array];
+    NSMutableArray* singleAnnotationsMinusGrouped = [[NSMutableArray alloc] initWithArray:annos copyItems:FALSE];
+	NSArray* groupings = [self groupAnnotations:annos withGroupDistance:dist];
 	for(NSArray* group in groupings)
 	{
 		CLLocationCoordinate2D coord = [self midPointForAnnotations:group];
-		[groupedAnnos addObject:[[[GroupedAnnotation alloc] initWithCoordinate:coord 
-																		 count:[group count]] autorelease]];
+		NSObject<MKAnnotation>* groupedAnnotation = [[[GroupedAnnotation alloc] initWithCoordinate:coord 
+																		 count:[group count]] autorelease];
+        
+        [self addAnnotation:groupedAnnotation];
+        [singleAnnotationsMinusGrouped removeObjectsInArray:group];
 	}
 	
-	return groupedAnnos;
-}
-
--(void) addAnnotations:(NSArray*)annos withGroupDistance:(int)dist
-{
-	NSMutableArray* singleAnnotationsMinusGrouped = [[NSMutableArray alloc] initWithArray:annos copyItems:FALSE];
-	NSArray* groupedAnnos = [self convertToGroupedAnnotationWithAnnotations:singleAnnotationsMinusGrouped 
-									 withGroupDistance:dist];
-	[self addAnnotations:groupedAnnos];
 	[self addAnnotations:singleAnnotationsMinusGrouped];
-	
 }
 
 @end
