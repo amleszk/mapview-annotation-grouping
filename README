@@ -1,1 +1,7 @@
-see http://amleszk.com/post/mkmapview-grouping-annotations
+
+Demo project which adds grouping of annotations when they get added to the MKMapView. 
+
+To keep things simple I've excluded some features:
+
+Each time the map is re-positioned all annotations are re-added - not always required
+Annotations should be culled by viewport so those not visible are not added to the map view
