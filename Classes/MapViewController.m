@@ -19,8 +19,8 @@
 	for(int i=0 ; i<50 ; i++)
 	{
 		CLLocationCoordinate2D annoLocation = melbourneCBD;
-		annoLocation.latitude += -0.5f + ((float)rand()/RAND_MAX)*1.0f;
-		annoLocation.longitude += -0.5f + ((float)rand()/RAND_MAX)*1.0f;
+		annoLocation.latitude += -0.5f + (float)rand()/RAND_MAX;
+		annoLocation.longitude += -0.5f + (float)rand()/RAND_MAX;
 		[annotations addObject:[[[SingleAnnotation alloc] initWithCoordinate:annoLocation] autorelease]];
 	}	
 	
